@@ -115,14 +115,17 @@
 }
 .nosotros_column_1 {
   width: 50%;
-  height: 100vh;
-  align-items: end;
+  align-items: start;
   justify-content: center;
   display: flex;
 }
 .nosotros_column_1 img {
-  height: 100%;
+  width: 500px;
   filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.2));
+  position: sticky;
+  top: 80px;
+  display: inline-block;
+  top: 20px;
 }
 .nosotros_column_2 {
   width: 60%;
