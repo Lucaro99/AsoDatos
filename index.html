@@ -303,30 +303,374 @@
           </div>
         </div>
       </section>
+
       <section class="clientes">
         <h3>Clientes</h3>
-        <div class="clientes_1">
-          <span class="material-symbols-outlined"> arrow_back_ios </span>
-          <div class="card_4">
-            <img
-              src="img/Personas/WhatsApp Image 2024-01-12 at 11.42.21 AM.jpeg"
-              alt="foto_cliente"
-            />
-            <div>
-              <div class="cliente_texto">
-                <p>
-                  “Asodatos ofrece la tarjeta CLIENTE PREFERENCIAL como
-                  herramienta para su beneficio. Usted podrá obtener la tarjeta
-                  y gozar de los beneficios.”
-                </p>
-                <h4>Nombre</h4>
-                <h6>Nombre</h6>
+        
+        <div class="content-wrapper">
+          <div class="wrapper-for-arrows">
+            <div id="reviewWrap" class="review-wrap">
+              <div id="imgDiv" class="">
+              </div>
+              <div id="personName"></div>
+              <div id="profession"></div>
+              <div id="description">
+              </div>
+            </div>
+           
+            <div class="left-arrow-wrap arrow-wrap">
+              <div class="arrow" id="leftArrow"></div>
+            </div>
+            <div class="right-arrow-wrap arrow-wrap">
+              <div class="arrow" id="rightArrow"></div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="footer col">
+        <div class="form row justify-content-center">
+          <div class="invitación col-md-5">
+            <div class="invitación-1 row">
+              <h3 class="titulo-2" data-aos="fade-right" data-aos-duration="1000">
+                ¿Necesitas más información?
+              </h3>
+              <hr />
+              <p class="text-2-1">
+                Envíanos un mensaje y nos comunicaremos contigo para ayudarte
+              </p>
+            </div>
+  
+            <div class="invitación-2 row">
+              <p class="text-2-1"><br />Síguenos en nuestras redes sociales</p>
+            </div>
+  
+            <div class="invitación-3 row text-start">
+              <div class="col-2">
+                <button
+                  class="btn_redes"
+                  data-aos="fade-right"
+                  data-aos-duration="1300"
+                >
+                  <a
+                    href="https://www.facebook.com/profile.php?id=100089847116145"
+                    class="fa-brands fa-facebook"
+                    aria-label="facebook"
+                  ></a>
+                </button>
+              </div>
+              <div class="col-2">
+                <button
+                  class="btn_redes"
+                  data-aos="fade-right"
+                  data-aos-duration="1000"
+                >
+                  <a
+                    href="https://www.instagram.com/financiateya/"
+                    id="menu_icon"
+                    class="fa-brands fa-instagram"
+                    aria-label="instagram"
+                  ></a>
+                </button>
+              </div>
+              <div class="col-2">
+                <button
+                  class="btn_redes"
+                  data-aos="fade-right"
+                  data-aos-duration="700"
+                >
+                  <a
+                    href="https://twitter.com/financiateya"
+                    class="fa-brands fa-twitter"
+                    aria-label="twitter"
+                  ></a>
+                </button>
+              </div>
+              <div class="col-2">
+                <button
+                  class="btn_redes"
+                  data-aos="fade-right"
+                  data-aos-duration="400"
+                >
+                  <a
+                    href="https://www.tiktok.com/@financiateya?lang=en"
+                    class="fa-brands fa-tiktok"
+                    aria-label="tiktok"
+                  ></a>
+                </button>
               </div>
             </div>
           </div>
-          <span class="material-symbols-outlined"> arrow_forward_ios </span>
+          <!-----------------------------------------------Forms---------------------------------------------------->
+  
+          <div class="form col-md-5">
+            <div class="contacto row" id="formulario">
+              <form
+                action="https://formsubmit.co/55aff0fe3bd8ed3c7a4bf2ac4dfa6b54"
+                method="post"
+                class="form2-col"
+              >
+                <div class="row">
+                  <label for="nombre" class="colocar"
+                    >Nombre <span class="obligatorio">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="nombre"
+                    id="nombre"
+                    required="obligatorio"
+                    placeholder="Escribe tu nombre"
+                  />
+                </div>
+  
+                <div class="row">
+                  <label for="email" class="colocar"
+                    >Email
+                    <span class="obligatorio">*</span>
+                  </label>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    required="obligatorio"
+                    placeholder="Escribe tu Email"
+                  />
+                </div>
+  
+                <div class="row">
+                  <label for="telefone" class="colocar">Teléfono </label>
+                  <input
+                    type="tel"
+                    name="telefono"
+                    id="telefono"
+                    placeholder="Escribe tu teléfono"
+                  />
+                </div>
+  
+                <div class="row">
+                  <label for="asunto" class="colocar"
+                    >Asunto
+                    <span class="obligatorio">*</span>
+                  </label>
+                  <input
+                    type="text"
+                    name="asunto"
+                    id="assunto"
+                    required="obligatorio"
+                    placeholder="Escribe un asunto"
+                  />
+                </div>
+  
+                <div class="row">
+                  <label for="mensaje" class="colocar"
+                    >Mensaje
+                    <span class="obligatorio">*</span>
+                  </label>
+                  <textarea
+                    name="mensaje"
+                    class="texto_mensaje"
+                    id="mensaje"
+                    required="obligatorio"
+                    placeholder="Deja aquí tu comentario..."
+                  ></textarea>
+                </div>
+  
+                <button
+                  class="enviar"
+                  type="submit"
+                  name="enviar_formulario"
+                  id="enviar"
+                >
+                  Enviar
+                </button>
+  
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_template" value="table" />
+                <input
+                  type="hidden"
+                  name="_next"
+                  value="https://financiate.com.co"
+                />
+                <input type="text" name="_honey" style="display: none" />
+  
+                <p class="aviso">
+                  <span class="obligatorio"> * </span>los campos son obligatorios.
+                </p>
+              </form>
+            </div>
+          </div>
         </div>
       </section>
+      <footer class="site-footer">
+        <div class="footer-quick-links">
+          <div class="footer-logo">
+            <a href="index.html"
+              ><img src="Img/Logos/Logotipo-Blanco.svg" alt="financiate"
+            /></a>
+          </div>
+          <div class="footer-datos">
+            <div class="footer-links">
+              <ul>
+                <li>
+                  <a href="tel:6015186633"
+                    ><span class="fa-solid fa-phone"></span> &nbsp (601) 518
+                    6633</a
+                  >
+                </li>
+                <li>
+                  <a href="mailto:servicioalcliente@financiate.com.co"
+                    ><span class="fa-solid fa-envelope"></span> &nbsp
+                    servicioalcliente@financiate.com.co</a
+                  >
+                </li>
+                <li>
+                  <a href="https://goo.gl/maps/yfcsUpp1BxeaAnWo6"
+                    ><span class="fa-sharp fa-solid fa-location-dot"></span> &nbsp
+                    Calle 33 # 6B-24 <br />
+                    Edificio Casa de Bolsa, Piso 9
+                  </a>
+                </li>
+              </ul>
+  
+              <div class="social-icon">
+                <ul class="social-icons">
+                  <li>
+                    <a
+                      class="facebook"
+                      href="https://www.facebook.com/profile.php?id=100089847116145"
+                      ><i class="fa fa-facebook"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="instagram"
+                      href="https://www.instagram.com/financiateya/"
+                      ><i class="fa fa-instagram"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a class="twitter" href="https://twitter.com/financiateya"
+                      ><i class="fa fa-twitter"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="youtube"
+                      href="https://www.youtube.com/@Financiateya"
+                      ><i class="fa fa-youtube"></i
+                    ></a>
+                  </li>
+                  <li>
+                    <a
+                      class="tiktok"
+                      href="https://www.tiktok.com/@financiateya?lang=en"
+                      ><i class="fa-brands fa-tiktok"></i
+                    ></a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </div>
+  
+          <div class="">
+            <h6>Compañía</h6>
+            <ul class="footer-links">
+              <li><a href="Nosotros.html">Nosotros</a></li>
+              <li><a href="dudas.html">Preguntas Frecuentes</a></li>
+              <li><a href="#opentyc">Términos y Condiciones</a></li>
+              <li><a href="#opendatos">Política de Tratamiento de Datos</a></li>
+              <li><a href="PQRS.html">Atención de PQRS</a></li>
+              <li><a href="Contactanos.html">Contáctanos</a></li>
+            </ul>
+          </div>
+          <div id="opentyc" class="modalDialog">
+            <div>
+              <a href="#close" title="Close" class="close">X</a>
+              <h2>Términos y Condiciones</h2>
+              <p>
+                Los titulares, al solicitar la financiación, declaran que se
+                obligan a efectuar los pagos de las cuotas a FINÁNCIATE SAS en el
+                plazo previsto. Al solicitar la financiación, el titular autoriza
+                el pago, en su nombre, de un aval y/o seguro de crédito con
+                ASODATOS SAS o cualquier avaladora, por un monto de hasta el 6%
+                sobre el valor financiado. Dicho aval se pagará en la primera o
+                primeras cuotas del crédito, y en caso de pagos anticipados,
+                Finánciate SAS no devolverá los valores pagados a la avaladora
+                contratada por este concepto. En caso de mora, los gastos
+                extrajudiciales y/o prejurídicos que FINÁNCIATE SAS y ASODATOS SAS
+                (avalista del crédito) tengan que realizar podrán ser de hasta el
+                20% sobre el valor adeudado por gastos de cobranza, y hasta el 20%
+                por honorarios sobre la deuda vigente. La tasa de mora, en caso de
+                incumplimiento, será la máxima autorizada por la ley. El impuesto
+                de 4 por 1000 será asumido por el cliente y descontado en la
+                primera cuota. Por esta razón, este valor será incluido en el
+                crédito para que el desembolso final sea el esperado en la
+                negociación.
+              </p>
+            </div>
+          </div>
+  
+          <div id="opendatos" class="modalDialog">
+            <div>
+              <a href="#close" title="Close" class="close">X</a>
+              <h2>Tratamientos de Datos</h2>
+              <p>
+                Yo, identificado como aparece en la firma de este documento,
+                manifiesto que conozco, acepto y autorizo a FINÁNCIATE SAS y/o a
+                quien represente sus derechos, para que por cualquier medio de
+                información y registros sistematizados, consulte, reporte,
+                procese, transfiera, transmita y mantenga actualizados los datos
+                referentes a mi (nuestro) comportamiento crediticio en lo
+                referente a la obligación contenida en el presente documento. Esto
+                incluye la facultad, en caso de incumplimiento, de reportar mi
+                (nuestro) documento de identificación en cualquier base de datos
+                de deudores morosos o centrales de riesgo. Todo lo anterior se
+                realizará de acuerdo con el procedimiento para el tratamiento de
+                los datos personales que reposa en las bases de datos almacenadas,
+                ya sea en documentos físicos y/o digitales, los cuales incluyen
+                información que se ha reportado en desarrollo de las diferentes
+                actividades realizadas con FINÁNCIATE SAS y/o ASODATOS SAS.
+              </p>
+            </div>
+          </div>
+  
+          <div class="">
+            <h6>Accesos Rápido</h6>
+            <ul class="footer-links">
+              <li><a href="index.html">Personas</a></li>
+              <li><a href="Simulador.html">Simula tu crédito</a></li>
+              <li><a href="Aliados.html">Aliados</a></li>
+              <li>
+                <a href="https://checkout.wompi.co/l/FTqfWR">Negociaciones</a>
+              </li>
+              <li>
+                <a href="https://app.financiate.com.co/">Inicia Sesión</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+  
+        <hr />
+  
+        <div class="footer-derechos">
+          <div class="">
+            <p class="copyright-text">
+              Copyright &copy; 2023 All Rights Reserved by
+              <a href="#">Finánciate SAS</a>.
+            </p>
+          </div>
+          <div class="asodatos">
+            <p>
+              By:
+              <a href="http://asodatos.com/">
+                <img src="Img/Logos/Logo-AsoDatos_2.png" alt=""
+              /></a>
+            </p>
+          </div>
+        </div>
+      </footer>
+      
     </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.9.1/gsap.min.js"></script>
+    <script src="script.js"></script>
   </body>
 </html>
