@@ -141,3 +141,17 @@ rightArrow.addEventListener("click", setNextCardRight);
 window.addEventListener("resize", () => {
   description.style.height = "100%";
 });
+
+function openNav() {
+  document.getElementById("mySidenav").style.width = "250px";
+  document.getElementById("main").style.marginLeft = "250px";
+  var overlay = document.getElementById("overlay");
+  overlay.style.display = "block";
+}
+
+function closeNav() {
+  document.getElementById("mySidenav").style.width = "0";
+  document.getElementById("main").style.marginLeft= "0";
+  var overlay = document.getElementById("overlay");
+  overlay.style.display = "none";
+}
