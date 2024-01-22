@@ -1,0 +1,221 @@
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}
+@media only screen and (max-width: 600px) {
+  .inicio {
+    flex-direction: column;
+    height: auto;
+  }
+  .logo_asodatos1 img {
+    width: 7.5rem;
+    height: auto;
+    margin: 0.8rem;
+  }
+  .inicio_column_1 {
+    width: 100%;
+    margin-top: 7rem;
+  }
+  .inicio_column_1 .Titulo_1 h1 {
+    font-size: 1.6rem;
+    align-self: center;
+    text-align: center;
+  }
+  .inicio_column_1 .Titulo_1 h5 {
+    align-self: center;
+    text-align: center;
+  }
+  .cards {
+    flex-direction: column;
+    margin: 0;
+  }
+  .card_1 {
+    box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.8);
+    margin: 0.8rem;
+    width: 13rem;
+    height: 13rem;
+    aspect-ratio: 1/1;
+  }
+  .card_1 img {
+    width: auto;
+    height: 50%;
+    margin-bottom: 15px;
+  }
+  .card_1 h3 {
+    letter-spacing: 0.1em;
+    font-size: 1.5rem;
+  }
+  .inicio_column_2 {
+    display: none;
+  }
+  .nosotros {
+    margin: 1.5rem;
+    flex-direction: column;
+  }
+  .nosotros_column_1 {
+    width: 100%;
+    align-items: center;
+  }
+  .nosotros_column_1 img {
+    width: 100%;
+  }
+  .nosotros_column_2 {
+    width: 100%;
+    padding: 0;
+  }
+  .nosotros_column_2 .descripcion h2 {
+    font-weight: bold;
+    letter-spacing: 0.1em;
+    font-size: 1.6rem;
+    align-self: center;
+    text-align: center;
+  }
+  .nosotros_column_2 .descripcion p {
+    font-size: 0.8rem;
+    text-align: justify;
+  }
+  .creacion,
+  .crecimiento,
+  .nuevas_alianzas,
+  .financiate,
+  .que_nos_espera {
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0 40px 0;
+  }
+  .card_2 {
+    margin: 0 0 20px 0;
+    width: 150px;
+    height: 150px;
+  }
+  .historia_descripcion_1:hover {
+    background-color: white;
+    color: var(--blue);
+  }
+  .historia_descripcion_1:hover .material-icon {
+    color: var(--ligth_blue);
+  }
+  .historia_texto p {
+    font-size: 0.8rem;
+    height: auto;
+    padding-left: 10px;
+  }
+  .historia_descripcion hr {
+    width: 100%;
+  }
+  .Servicios {
+    padding: 0;
+  }
+  .servicios_card {
+    flex-direction: column;
+    width: 100%;
+  }
+  .card_3 {
+    flex-direction: column;
+    align-items: center;
+    width: 87%;
+    padding: 5%;
+    margin: 1rem;
+  }
+  .servicios-icon {
+    display: flex;
+    align-items: center;
+    margin: 0 0 1.4rem 0;
+  }
+  .wrapper-for-arrows {
+    width: 87%;
+  }
+  .contacto {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: 100%;
+    margin-top: 1rem;
+  }
+  .form2{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 1rem;
+  }
+
+  .footer {
+    flex-direction: column;
+    height: auto;
+  }
+  .invitacion {
+    width: 100%;
+    height: auto;
+    padding: 0 1rem;
+  }
+  .invitacion .titulo-2 {
+    font-size: 1.5em;
+    text-align: center;
+    padding-top: 1rem;
+  }
+  .invitacion .text-2-1 {
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .invitacion-3 {
+    justify-content: space-around;
+  }
+
+  .contacto input {
+    width: 100%;
+  }
+  .contacto textarea {
+    width: 100%;
+  }
+
+  .footer-quick-links {
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+  }
+  footer ul li  {
+    text-align: center;
+  }
+  footer h6 {
+    text-align: center;
+  }
+  .footer-derechos{
+    text-align: center;
+  }
+  .footer-logo img {
+    margin: 0;
+  }
+}
+
+
+@media only screen and (min-width: 600px) {
+  .example {
+    background: green;
+  }
+}
+
+@media only screen and (min-width: 768px) {
+  .example {
+    background: blue;
+  }
+}
+
+@media only screen and (min-width: 992px) {
+  .example {
+    background: orange;
+  }
+}
+
+@media only screen and (min-width: 1200px) {
+  .example {
+    background: pink;
+  }
+}

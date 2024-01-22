@@ -39,7 +39,7 @@
   height: 100%;
   width: 0;
   position: fixed;
-  z-index: 2;
+  z-index: 5;
   top: 0;
   left: 0;
   background-color: var(--blue);
@@ -70,15 +70,12 @@
 }
 
 #main {
-  transition: margin-left .5s;
+  transition: margin-left 0.5s;
   padding: 16px;
   color: var(--blue);
 }
 
-@media screen and (max-height: 450px) {
-  .sidenav {padding-top: 15px;}
-  .sidenav a {font-size: 18px;}
-}
+
 #overlay {
   display: none;
   position: fixed;
@@ -87,7 +84,7 @@
   width: 100%;
   height: 100%;
   background-color: rgba(0, 0, 0, 0.4);
-  z-index: 1;
+  z-index: 4;
 }
 /*======================inicio======================*/
 .inicio {
@@ -96,10 +93,12 @@
   height: 100vh;
 }
 .logo_asodatos1 {
-  position: absolute;
+  position: fixed;
   justify-content: end;
   width: 100%;
   height: auto;
+  background-color: var(--white);
+  z-index: 3;
 }
 .logo_asodatos1 img {
   float: right;
@@ -127,13 +126,14 @@
 .inicio_column_2 {
   width: 40%;
   height: 100vh;
-  align-items: end;
+  align-items: center;
   justify-content: center;
   display: flex;
 }
 .inicio_column_2 img {
-  height: 100%;
+  height: 90%;
   filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.2));
+  z-index: 3;
 }
 
 .cards {
@@ -152,10 +152,9 @@
   border: none;
   text-align: center;
 }
-.card_1 a{
+.card_1 a {
   text-decoration: none;
   color: var(--blue);
-
 }
 .card_1:hover {
   box-shadow: none;
@@ -188,6 +187,7 @@
   top: 80px;
   display: inline-block;
   top: 20px;
+  z-index: 3;
 }
 .nosotros_column_2 {
   width: 60%;
@@ -201,21 +201,14 @@
   font-size: 18px;
   text-align: justify;
 }
-.creacion {
-  display: flex;
-}
-.crecimiento {
-  display: flex;
-}
-.nuevas_alianzas {
-  display: flex;
-}
-.financiate {
-  display: flex;
-}
+.creacion,
+.crecimiento,
+.nuevas_alianzas,
+.financiate,
 .que_nos_espera {
   display: flex;
 }
+
 .card_2 {
   background-color: white;
   border-radius: 15px;
@@ -364,70 +357,15 @@
 .clientes {
   width: 100%;
 }
-.clientes_1 {
-  display: flex;
-  align-content: center;
-  text-align: center;
-  justify-content: center;
-}
-.clientes_1 .material-symbols-outlined {
-  align-self: center;
-  font-size: 2.5em;
-}
-.clientes_1 .material-symbols-outlined:hover {
-  color: var(--ligth_blue);
-  font-size: 3em;
-}
+
 .clientes h3 {
   font-weight: bold;
   letter-spacing: 0.1em;
   margin: 0 0 20px 70px;
 }
-.card_4 {
-  display: flex;
-  flex-direction: column;
-  align-self: center;
-  text-align: center;
-  width: 40%;
-  padding: 50px;
-  margin: 30px;
-  border-radius: 15px;
-  background-color: white;
-  box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.8);
+.colocar{
+  color: var(--white);
 }
-.card_4 img {
-  align-self: center;
-  height: 100px;
-  aspect-ratio: 1/1;
-  border: 5px solid #42a9e0;
-  border-radius: 100px;
-}
-
-.cliente_texto {
-  align-content: center;
-  display: flex;
-  flex-direction: column;
-}
-
-.cliente_texto p {
-  font-size: 14px;
-  margin-bottom: 0;
-  height: 100px;
-  align-self: center;
-  justify-content: center;
-  padding: 8px;
-}
-.cliente_texto h4 {
-  align-self: center;
-  justify-content: center;
-  text-justify: center;
-}
-.cliente_texto h6 {
-  align-self: center;
-  justify-content: center;
-  text-justify: center;
-}
-
 .content-wrapper {
   height: 100%;
   width: 100%;
@@ -592,9 +530,6 @@ footer hr {
   font-weight: 100;
 }
 
-.asodatos img {
-  height: 50px;
-}
 .modalDialog {
   position: fixed;
   display: flex;
@@ -641,7 +576,7 @@ footer hr {
   transition: opacity 400ms ease-in;
 }
 .close {
-  color: var(--green);
+  color: var(--blue);
   line-height: 25px;
   position: absolute;
   right: 15px;
@@ -686,6 +621,7 @@ footer hr {
 .contacto {
   display: flex;
   flex-direction: column;
+  align-items: center;
   justify-content: center;
   height: 100%;
   width: 50%;
@@ -698,7 +634,7 @@ footer hr {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color:none;
+  border-color: none;
 }
 
 .contacto textarea {
@@ -708,7 +644,8 @@ footer hr {
   border-radius: 5px;
   border-style: solid;
   border-width: 1px;
-  border-color:none;
+  border-color: none;
+  text-align: start;
 }
 .contacto label {
   display: block;
@@ -731,20 +668,12 @@ footer hr {
   transition: all 0.3s;
 }
 
-.btn-fullmenu button p {
-  color: #fff;
-  align-items: center;
-}
 
 .aviso {
   font-size: 13px;
   color: var(--white);
 }
 
-.colocar {
-  font-size: 20px;
-  color: var(--white);
-}
 
 ::-webkit-input-placeholder {
   color: #a8a8a8;
