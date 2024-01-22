@@ -186,7 +186,6 @@
   position: sticky;
   top: 80px;
   display: inline-block;
-  top: 20px;
   z-index: 3;
 }
 .nosotros_column_2 {
@@ -380,12 +379,13 @@
 h1 {
   margin-bottom: calc(0.7rem + 0.5vmin);
   font-size: calc(2.3rem + 1vmin);
+  
 }
 
 .wrapper-for-arrows {
   position: relative;
   width: 50%;
-  border-radius: 2rem;
+  border-radius: 15px;
   background-color: white;
   box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.8);
   overflow: hidden;
@@ -423,6 +423,7 @@ h1 {
   font-size: calc(0.8rem + 0.3vmin);
   margin-bottom: calc(0.7rem + 0.5vmin);
   color: rgb(79, 143, 226);
+  
 }
 
 #description {
@@ -432,7 +433,6 @@ h1 {
   text-align: center;
   margin-bottom: calc(1.4rem + 1vmin);
   color: rgb(92, 92, 92);
-  line-height: 2rem;
 }
 
 .arrow-wrap {
