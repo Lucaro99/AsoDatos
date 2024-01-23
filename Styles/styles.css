@@ -131,7 +131,7 @@
   display: flex;
 }
 .inicio_column_2 img {
-  height: 90%;
+  height: 100%;
   filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.2));
   z-index: 3;
 }
@@ -147,7 +147,6 @@
   border-radius: 15px;
   box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.8);
   margin: 10px;
-  width: 150px;
   aspect-ratio: 1/1;
   border: none;
   text-align: center;
@@ -172,7 +171,7 @@
 }
 .nosotros {
   display: flex;
-  margin-top: 2rem;
+  margin: 50rem;
 }
 .nosotros_column_1 {
   width: 50%;
@@ -190,6 +189,7 @@
 }
 .nosotros_column_2 {
   width: 60%;
+  margin-right: 2rem;
   padding-right: 3rem;
 }
 .nosotros_column_2 .descripcion h2 {
@@ -206,6 +206,9 @@
 .financiate,
 .que_nos_espera {
   display: flex;
+  align-items: center; 
+  align-content: center;
+  justify-content: center;
 }
 
 .card_2 {
@@ -234,22 +237,23 @@
 }
 .historia {
   margin-top: 50px;
+
 }
 .historia_descripcion {
+  width: 100%;
   display: flex;
   text-align: center;
   align-items: center;
   flex-direction: column;
-  width: 100%;
   align-content: center;
   justify-content: center;
 }
 .historia_descripcion_1 {
-  display: flex;
-  align-self: center;
   border-radius: 100px;
   width: 100%;
+  padding: 1rem;
   height: auto;
+  align-items: center;
   color: var(--blue);
 }
 .historia_descripcion_1:hover {
@@ -271,6 +275,8 @@
   align-self: center;
   justify-content: center;
   padding: 8px;
+  letter-spacing: -0.01em;
+  word-spacing: -0.05em;
 }
 
 .material-icon {
