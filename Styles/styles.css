@@ -365,6 +365,14 @@
 .servicios-boton .material-symbols-outlined {
   font-size: 2em;
 }
+.servicios-boton a{
+  text-decoration: none;
+  color: var(--blue);
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+}
 .servicios-icon .material-symbols-outlined {
   font-size: 4em;
 }
