@@ -1,674 +1,221 @@
-@media screen and (max-height: 450px) {
-  .sidenav {
-    padding-top: 15px;
-  }
-  .sidenav a {
-    font-size: 18px;
-  }
-  
-}
-@media only screen and (max-width: 600px) {
-
-  .inicio {
-    flex-direction: column;
-    height: auto;
-  }
-  .logo_asodatos1 img {
-    width: 7.5rem;
-    height: auto;
-    margin: 0.8rem;
-  }
+@media screen and (max-width: 1280px) {
   .inicio_column_1 {
-    width: 100%;
-    margin-top: 7rem;
+    margin-top: 4rem;
   }
   .inicio_column_1 .Titulo_1 h1 {
-    font-size: 1.6rem;
-    align-self: center;
-    text-align: center;
+    font-size: 3rem;
   }
   .inicio_column_1 .Titulo_1 h5 {
-    align-self: center;
-    text-align: center;
-  }
-  .cards {
-    flex-direction: column;
-    margin: 0;
+    font-size: 1.4rem;
   }
   .card_1 {
-    box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.8);
-    margin: 0.8rem;
-    width: 13rem;
-    height: 13rem;
-    aspect-ratio: 1/1;
-  }
-  .card_1 img {
-    width: auto;
-    height: 50%;
-    margin-bottom: 15px;
-  }
-  .card_1 h3 {
-    letter-spacing: 0.1em;
-    font-size: 1.5rem;
-  }
-  .inicio_column_2 {
-    display: none;
-  }
-  .nosotros {
-    margin: 1.5rem;
-    flex-direction: column;
-  }
-  .nosotros_column_1 {
-    width: 100%;
-    align-items: center;
-  }
-  .nosotros_column_1 img {
-    width: 100%;
-  }
-  .nosotros_column_2 {
-    width: 100%;
-    padding: 0;
-  }
-  .nosotros_column_2 .descripcion h2 {
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 1.6rem;
-    align-self: center;
-    text-align: center;
-  }
-  .nosotros_column_2 .descripcion p {
-    font-size: 0.8rem;
-    text-align: justify;
-  }
-  .nosotros_column_1 {
-    position: relative;
-    z-index: 2;
-  }
-
-  .nosotros_column_1 img {
-    width: 100%;
-    position: sticky;
-    top: 1px;
-  }
-  .creacion,
-  .crecimiento,
-  .nuevas_alianzas,
-  .financiate,
-  .que_nos_espera {
-    flex-direction: column;
-    align-items: center;
-    margin: 40px 0 40px 0;
-  }
-  .card_2 {
-    margin: 0 0 20px 0;
-    width: 150px;
-    height: 150px;
-  }
-  .historia_descripcion_1 {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .material-icon {
-   height: 3em;
-  }
-  .historia_descripcion_1:hover {
-    background-color: white;
-    color: var(--blue);
-  }
-  .historia_descripcion_1:hover .material-icon {
-    color: var(--ligth_blue);
-  }
-  .historia_texto p {
-    font-size: 0.8rem;
-    height: auto;
-    padding-left: 10px;
-  }
-  .historia_descripcion hr {
-    width: 100%;
-  }
-  .Servicios {
-    padding: 0;
-  }
-  .servicios_card {
-    flex-direction: column;
-    width: 100%;
-  }
-  .card_3 {
-    flex-direction: column;
-    align-items: center;
-    width: 87%;
-    padding: 5%;
-    margin: 1rem;
-  }
-  .servicios-icon {
-    display: flex;
-    align-items: center;
-    margin: 0 0 1.4rem 0;
-  }
-  .wrapper-for-arrows {
-    width: 87%;
-  }
-  .contacto {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .form2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-  }
-
-  .footer {
-    flex-direction: column;
-    height: auto;
-  }
-  .invitacion {
-    width: 100%;
-    height: auto;
-    padding: 0 1rem;
+    width: 9rem;
   }
   .invitacion .titulo-2 {
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 1rem;
+    font-size: 2rem;
   }
-  .invitacion .text-2-1 {
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  .invitacion-3 {
-    justify-content: space-around;
-  }
-
   .contacto input {
-    width: 100%;
-  }
-  .contacto textarea {
-    width: 100%;
+    height: 30px;
+    width: 400px;
   }
 
-  .footer-quick-links {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  footer ul li {
-    text-align: center;
-  }
-  footer h6 {
-    text-align: center;
-  }
-  .footer-derechos {
-    text-align: center;
-  }
-  .footer-logo img {
-    margin: 0;
+  .contacto textarea {
+    height: 90px;
   }
 }
-
-@media only screen and (min-width: 600px) {
-  .inicio_column_1 {
-    width: 100%;
-    margin-top: 2rem;
-  }
+@media screen and (max-width: 900px) {
   .inicio_column_1 .Titulo_1 h1 {
-    font-size: 1.6rem;
-    align-self: center;
-    text-align: center;
+    font-size: 2.5rem;
   }
   .inicio_column_1 .Titulo_1 h5 {
-    align-self: center;
-    text-align: center;
-  }
-  .cards {
-    flex-direction: row;
-    margin: 0;
+    font-size: 1.1rem;
   }
   .card_1 {
-    width: 10rem;
-    height: 10rem;
-    aspect-ratio: 1/1;
-  }
-  .card_1 img {
-    width: auto;
-    height: 50%;
-    margin-bottom: 15px;
+    width: 7rem;
   }
   .card_1 h3 {
-    letter-spacing: 0.1em;
-    font-size: 1rem;
-  }
-  .inicio_column_2 {
-    display: none;
-  }
-  .nosotros {
-    margin: 1.5rem;
-    flex-direction: row;
-  }
-  .nosotros_column_1 {
-    width: 100%;
-    height: auto;
-    align-items: center;
-    position: relative;
-  }
-  .nosotros_column_1 img {
-    width: 100%;
-    position: sticky;
-    top: 0;
-    z-index: 3;
-    overflow: hidden;
+    font-size: 0.8rem;
   }
   .nosotros_column_2 {
-    width: 100%;
-    padding: 0;
-  }
-  .nosotros_column_2 .descripcion h2 {
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 1.6rem;
-    align-self: center;
-    text-align: center;
-  }
-  .nosotros_column_2 .descripcion p {
-    font-size: 0.8rem;
-    text-align: justify;
-  }
-  .creacion,
-  .crecimiento,
-  .nuevas_alianzas,
-  .financiate,
-  .que_nos_espera {
-    flex-direction: column;
-    align-items: center;
-    margin: 40px 0 40px 0;
-  }
-  .card_2 {
-    margin: 0 0 20px 0;
-    width: 150px;
-    height: 150px;
-  }
-  .historia_descripcion_1:hover {
-    background-color: white;
-    color: var(--blue);
-  }
-  .historia_descripcion_1:hover .material-icon {
-    color: var(--ligth_blue);
-  }
-  .historia_texto p {
-    font-size: 0.8rem;
-    height: auto;
-    padding-left: 10px;
-  }
-  .historia_descripcion hr {
-    width: 100%;
-  }
-  .Servicios {
-    padding: 0;
+    margin-right: 0;
+    padding-right: 2rem;
   }
   .servicios_card {
-    flex-direction: column;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .card_3 {
-    flex-direction: row;
-    align-items: center;
-    width: 80%;
-    padding: 5%;
-    margin: 1rem;
-  }
-  .servicios-icon {
-    display: flex;
-    align-items: center;
-    margin: 0 0 1.4rem 0;
+    width: 95%;
+    padding-left: 2rem;
   }
   .wrapper-for-arrows {
     width: 70%;
   }
-  .contacto {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    height: auto;
-    width: 100%;
-    margin-top: 1rem;
-  }
-  .form2 {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    margin: 1rem;
-  }
-
-  .footer {
-    flex-direction: row;
-    height: auto;
-  }
   .invitacion {
-    width: 100%;
-    height: auto;
-    padding: 0 1rem;
-  }
-  .invitacion .titulo-2 {
-    font-size: 1.5em;
-    text-align: center;
-    padding-top: 1rem;
-  }
-  .invitacion .text-2-1 {
-    text-align: center;
-    font-size: 0.8rem;
-  }
-  .invitacion-3 {
-    justify-content: space-around;
-  }
-
-  .contacto input {
-    width: 100%;
-  }
-  .contacto textarea {
-    width: 100%;
-  }
-
-  .footer-quick-links {
-    flex-direction: column-reverse;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-  }
-  footer ul li {
-    text-align: center;
-  }
-  footer h6 {
-    text-align: center;
-  }
-  .footer-derechos {
-    text-align: center;
+    padding: 3em 3em 3em 6em;
   }
   .footer-logo img {
     margin: 0;
   }
 }
 
-@media only screen and (min-width: 768px) {
+@media screen and (max-width: 768px) {
   .inicio_column_1 {
     width: 60%;
-    margin-top: 7rem;
   }
-  .inicio_column_2 {
-    display: block;
-    width: 40%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
+  .inicio_column_1 .Titulo_1 h1 {
+    font-size: 1.7rem;
+  }
+  .inicio_column_1 .Titulo_1 h5 {
+    font-size: 0.9rem;
   }
   .inicio_column_2 img {
     width: 75%;
     height: auto;
   }
-  .cards {
-    flex-direction: row;
-    margin: 0;
-  }
   .card_1 {
-    width: 6rem;
-    height: 6rem;
+    width: 4.6rem;
+    height: 4.6rem;
     aspect-ratio: 1/1;
   }
   .card_1 img {
-    width: auto;
-    height: 50%;
     margin-bottom: 0.2rem;
   }
   .card_1 h3 {
     letter-spacing: 0.1em;
-    font-size: 0.7rem;
-  }
-
-  .invitacion {
-    width: 50%;
-    height: 100%;
-    align-items: start;
-  }
-  .invitacion .titulo-2 {
-    font-size: 2em;
-    text-align: start;
-    padding-top: 1rem;
-  }
-  .invitacion .text-2-1 {
-    text-align: start;
-    font-size: 1rem;
-  }
-  .invitacion-3 {
-    justify-content: space-around;
-  }
-  .contacto {
-    padding: 0;
-    margin: 0;
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-  }
-  .form2 {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    margin: 1rem;
-    width: 100%;
-  }
-  .form3 {
-    width: 80%;
-  }
-  .footer-quick-links {
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-  footer ul li {
-    text-align: start;
-  }
-  footer h6 {
-    text-align: start;
-  }
-  .footer-derechos {
-    text-align: start;
-  }
-  .footer-logo {
-    align-items: center;
-    justify-content: center;
-  }
-  .footer-logo img {
-    height: 50px;
-    margin: 30px 0 10px 50px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
-  .inicio_column_2 {
-    display: block;
-    width: 40%;
-    height: 100vh;
-    align-items: center;
-    justify-content: center;
-    display: flex;
-  }
-  .inicio_column_2 img {
-    width: 65%;
-    height: auto;
-  }
-  .card_1 {
-    width: 9rem;
-    height: 9rem;
-    aspect-ratio: 1/1;
-  }
-  .card_1 img {
-    width: auto;
-    height: 50%;
-    margin-bottom: 0.2rem;
-  }
-  .card_1 h3 {
-    letter-spacing: 0.1em;
-    font-size: 1rem;
-  }
-
-  .servicios_card {
-    flex-direction: row;
-    width: 100%;
-    align-items: center;
-    justify-content: center;
-  }
-  .historia_descripcion hr {
-    width: 70%;
-  }
-  .form2 {
-    display: flex;
-    justify-content: start;
-    align-items: start;
-    margin: 1rem;
-    width: 90%;
-  }
-  .form3 {
-    width: 80%;
-  }
-  .footer-quick-links {
-    flex-direction: row;
-    align-items: start;
-    justify-content: space-evenly;
-    text-align: center;
-  }
-  footer ul li {
-    text-align: start;
-  }
-  footer h6 {
-    text-align: start;
-  }
-  .footer-derechos {
-    text-align: start;
-  }
-  .footer-logo {
-    align-items: center;
-    justify-content: center;
-  }
-  .nosotros {
-    display: flex;
-    margin-top: 2rem;
-  }
-  .nosotros_column_1 {
-    width: 40%;
-    align-items: start;
-    justify-content: center;
-    display: flex;
-  }
-  .nosotros_column_1 img {
-    width: 500px;
-    filter: drop-shadow(0px 0px 12px rgba(0, 0, 0, 0.2));
-    position: sticky;
-    top: 80px;
-    display: inline-block;
-    z-index: 3;
-  }
-  .nosotros_column_2 {
-    width: 90%;
-    padding-right: 0;
-  }
-  .nosotros_column_2 .descripcion h2 {
-    font-weight: bold;
-    letter-spacing: 0.1em;
-  }
-  .nosotros_column_2 .descripcion p {
-    font-size: 18px;
-    text-align: justify;
+    font-size: 0.6rem;
   }
   .creacion,
   .crecimiento,
   .nuevas_alianzas,
   .financiate,
   .que_nos_espera {
-    display: flex;
-    flex-direction: row;
-    text-align: center;
-    align-items: center;
-    width: 100%;
-  }
-
-  .card_2 {
-    background-color: white;
-    border-radius: 15px;
-    box-shadow: 0px 0px 17px -5px rgba(0, 0, 0, 0.8);
-    margin: 10px;
-    width: 200px;
-    aspect-ratio: 1/1;
-    border: none;
-    text-align: center;
-  }
-
-  .card_2 h1 {
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 2rem;
-    text-align: center;
-    color: var(--ligth_blue);
-  }
-  .card_2 h3 {
-    font-weight: bold;
-    letter-spacing: 0.1em;
-    font-size: 1rem;
-    text-align: center;
-  }
-  .historia {
-    margin-top: 50px;
-    width: 100%;
-  }
-  .historia_descripcion {
     flex-direction: column;
-    display: flex;
-    text-align: center;
-    align-items: center;
-    justify-content: center;
-    align-content: center;
-    width: 100%;
+  }
+  .card_2 {
+    width: 130px;
   }
   .historia_descripcion_1 {
-    display: flex;
-    align-self: center;
     border-radius: 100px;
-    width: 100%;
+  }
+
+  .servicios_card {
+    flex-direction: column;
+  }
+  .card_3 {
+    flex-direction: column;
+    align-self: center;
+    width: 75%;
+  }
+  .footer {
+    flex-direction: column;
     height: auto;
-    color: var(--blue);
-  }
-  .historia_descripcion_1:hover {
-    background-color: var(--blue);
-    color: white;
-  }
-  .historia_descripcion_1:hover .material-icon {
-    color: white;
-  }
-  .historia_texto {
-    align-content: center;
-  }
-  .historia_texto p {
-    font-size: 14px;
+    padding-bottom: 5%;
   }
   .invitacion {
-    width: 40%;
-    height: 100%;
-    align-items: start;
+    width: 100%;
+  }
+  .contacto {
+    width: 100%;
+  }
+  .contacto input {
+    width: 300px;
+  }
+  .footer-quick-links {
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+ .footer-links{
+    text-align: center;
   }
 }
 
+@media screen and (max-width: 640px) {
+  .inicio_column_1 .Titulo_1 h5 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (max-width: 576px) {
+  .inicio{
+    height: auto;
+  }
+  .inicio_column_2{
+    display: none;
+  }
+  .inicio_column_1 {
+    padding-top: 10%;
+    width: 100%;
+  }
+  .cards{
+    flex-direction: column;
+  }
+  .card_1{
+    width: 8rem;
+    height: 8rem;
+    aspect-ratio: 1/1;
+  }
+  .card_1 h3 {
+    font-size: .8rem;
+  }
+  .nosotros_column_1 {
+    display: none;
+  }
+  .nosotros_column_2 {
+    width: 900%;
+    margin-left: 60px;
+  }
+  .historia_descripcion_1{
+    flex-direction: column;
+  }
+  .contacto {
+    padding-left: 68px;
+  }
+}
+@media screen and (max-width: 375px) {
+  .invitacion {
+    padding-left: 68px;
+  }
+  .invitacion .titulo-2 {
+    font-size: 1.3rem;
+  }
+  .contacto {
+    width: 30px;
+  }
+  .contacto input {
+    width: 200px;
+  }
+
+}
+@media screen and (max-width: 320px) {
+  .inicio_column_1 .Titulo_1 h1 {
+    font-size: 1.5rem;
+  }
+  .inicio_column_1 .Titulo_1 h5 {
+    font-size: 0.65rem;
+  }
+  .nosotros{
+    padding-left: 20px;
+  } 
+  .nosotros_column_2 .descripcion p {
+    font-size: 14px;
+    letter-spacing: -0.05em;
+  }
+  .historia_descripcion p{
+    letter-spacing: -0.05em;
+    font-size: 13px;
+  }
+  .card_3{
+    flex-direction: column;
+    align-items: center;
+  }
+  .servicios-boton button {
+    font-size: 0.7rem;
+  }
+  .clientes {
+    padding-left: 50px;
+  }
+  .wrapper-for-arrows {
+    width: 75%;
+  }
+  .invitacion-3 {
+    height: 40px;
+  }
+
+}
