@@ -1,12 +1,12 @@
 @media screen and (max-width: 1280px) {
   .inicio_column_1 {
-    margin-top: 4rem;
+    margin-top: 5.4rem;
   }
   .inicio_column_1 .Titulo_1 h1 {
     font-size: 3rem;
   }
   .inicio_column_1 .Titulo_1 h5 {
-    font-size: 1.4rem;
+    font-size: 1.3rem;
   }
   .card_1 {
     width: 9rem;
@@ -22,6 +22,15 @@
   .contacto textarea {
     height: 90px;
   }
+
+  .descubre_1 .derecha {
+    align-self: center;
+    display: block;
+  }
+
+  .descubre_1 .abajo {
+    display: none;
+  }
 }
 @media screen and (max-width: 900px) {
   .inicio_column_1 .Titulo_1 h1 {
@@ -35,6 +44,20 @@
   }
   .card_1 h3 {
     font-size: 0.8rem;
+  }
+  .descubre_1 .derecha {
+    align-self: center;
+    display: block;
+  }
+
+  .descubre_1 .abajo {
+    display: none;
+  }
+  .descubre_1 h1 {
+    font-size: 1.5rem;
+  }
+  .btn-financiate {
+    height: 60px;
   }
   .nosotros_column_2 {
     margin-right: 0;
@@ -53,6 +76,7 @@
   .footer-logo img {
     margin: 0;
   }
+  
 }
 
 @media screen and (max-width: 768px) {
@@ -80,6 +104,12 @@
   .card_1 h3 {
     letter-spacing: 0.1em;
     font-size: 0.6rem;
+  }
+  .descubre_1 h1 {
+    font-size: 1rem;
+  }
+  .btn-financiate {
+    height: 40px;
   }
   .creacion,
   .crecimiento,
@@ -122,7 +152,7 @@
     align-items: center;
     justify-content: center;
   }
- .footer-links{
+  .footer-links {
     text-align: center;
   }
 }
@@ -133,26 +163,51 @@
   }
 }
 @media screen and (max-width: 576px) {
-  .inicio{
+  .inicio {
     height: auto;
   }
-  .inicio_column_2{
+  .inicio_column_2 {
     display: none;
   }
   .inicio_column_1 {
     padding-top: 10%;
     width: 100%;
   }
-  .cards{
+  .cards {
+    align-items: center;
     flex-direction: column;
   }
-  .card_1{
+  .card_1 {
     width: 8rem;
     height: 8rem;
     aspect-ratio: 1/1;
   }
   .card_1 h3 {
-    font-size: .8rem;
+    font-size: 0.8rem;
+  }
+  .descubre {
+    margin-top: 4%;
+    flex-direction: column;
+    justify-content: center;
+  }
+  .descubre_1 {
+    flex-direction: column;
+    text-justify: center;
+  }
+  .descubre_1 .derecha {
+    display: none;
+  }
+  .descubre_1 h1 {
+    font-size: 2rem;
+    align-items: center;
+    flex-direction: column;
+  }
+  .descubre_1 .abajo {
+    align-self: center;
+    display:flex
+  }
+  .btn-financiate {
+    height: 60px;
   }
   .nosotros_column_1 {
     display: none;
@@ -161,7 +216,7 @@
     width: 900%;
     margin-left: 60px;
   }
-  .historia_descripcion_1{
+  .historia_descripcion_1 {
     flex-direction: column;
   }
   .contacto {
@@ -181,7 +236,6 @@
   .contacto input {
     width: 200px;
   }
-
 }
 @media screen and (max-width: 320px) {
   .inicio_column_1 .Titulo_1 h1 {
@@ -190,18 +244,18 @@
   .inicio_column_1 .Titulo_1 h5 {
     font-size: 0.65rem;
   }
-  .nosotros{
+  .nosotros {
     padding-left: 20px;
-  } 
+  }
   .nosotros_column_2 .descripcion p {
     font-size: 14px;
     letter-spacing: -0.05em;
   }
-  .historia_descripcion p{
+  .historia_descripcion p {
     letter-spacing: -0.05em;
     font-size: 13px;
   }
-  .card_3{
+  .card_3 {
     flex-direction: column;
     align-items: center;
   }
@@ -217,5 +271,4 @@
   .invitacion-3 {
     height: 40px;
   }
-
 }

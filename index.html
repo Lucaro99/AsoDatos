@@ -24,27 +24,32 @@
       rel="stylesheet"
       href="https://fonts.googleapis.com/icon?family=Material+Icons+Outlined"
     />
-
+    <script src="JS/script.js"></script>
     <script
       src="https://kit.fontawesome.com/bf672f56cc.js"
       crossorigin="anonymous"
     ></script>
-    <script src="script/jquery-3.2.1.js"></script>
-    <script src="Script/scripts.js"></script>
     <link rel="icon" type="image/x-icon" href="Img/Favicon.png" />
   </head>
   <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-C8TDZTNXVV"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
+  <script
+    async
+    src="https://www.googletagmanager.com/gtag/js?id=G-C8TDZTNXVV"
+  ></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag() {
+      dataLayer.push(arguments);
+    }
+    gtag("js", new Date());
 
-  gtag('config', 'G-C8TDZTNXVV');
-</script>
+    gtag("config", "G-C8TDZTNXVV");
+  </script>
   <body>
     <div id="mySidenav" class="sidenav">
-      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+      <a href="javascript:void(0)" class="closebtn" onclick="closeNav()"
+        >&times;</a
+      >
       <a href="#inicio">Inicio</a>
       <a href="#nosotros">Nosotros</a>
       <a href="#servicios">Servicios</a>
@@ -52,11 +57,13 @@
       <a href="#formulario">Contacto</a>
     </div>
     <div id="overlay"></div>
-    
+
     <div id="main">
-           <span style="font-size:30px;cursor:pointer" onclick="openNav()">&#9776;</span>
+      <span style="font-size: 30px; cursor: pointer" onclick="openNav()"
+        >&#9776;</span
+      >
     </div>
-    
+
     <main>
       <section class="inicio" id="inicio">
         <div class="logo_asodatos1">
@@ -87,6 +94,18 @@
                 <h3>Contáctanos</h3>
               </a>
             </button>
+          </div>
+          <div class="descubre">
+            <div class="descubre_1">
+              <h1>Descubre</h1> <h1 class="derecha">→</h1> <h1 style="display: none;" class="abajo">↓</h1> 
+            </div>
+            <div class="btn">
+              <a href="https://financiate.com.co/">
+                <button class="btn-financiate" data-aos="fade-up" data-aos-duration="1000"> <img src="img/Logos/1_Logotipo-Blanco.png" alt="">
+                </button>
+              </a>
+            </div>
+
           </div>
         </div>
         <div class="inicio_column_2">
@@ -639,7 +658,7 @@
         </div>
 
         <hr />
-        
+
         <div class="footer-derechos">
           <div class="">
             <p class="copyright-text">
@@ -648,9 +667,7 @@
             </p>
           </div>
         </div>
-
       </footer>
     </main>
-
   </body>
 </html>
